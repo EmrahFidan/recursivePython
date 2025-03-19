@@ -1,0 +1,46 @@
+Mini Project - Adam Asmaca (Hangman) Game
+
+Features
+- Random word selection from predefined list 
+- Limited guess attempts with visual hangman progression 
+- Letter input and validation system 
+- Word display with revealed letters 
+- Win/lose condition tracking 
+
+Description 
+A classic Hangman game where players guess letters to reveal a hidden word before the hangman drawing is completed.
+The game includes random word selection, visual representation of incorrect guesses, and interactive gameplay 
+with input validation. 
+
+
+## Project Hangman Pipeline
+1. Data Preparation
+   - Create the word list
+   - Prepare hanging man visuals
+
+2. Game Launch
+   - Select random word
+   - Create a list of predicted letters
+   - Reset the wrong guess counter
+   - Create the word to display with "_" characters
+
+3. Game Cycle
+   - Show current status (man, word, predictions)
+   - Get letters from user
+   - Check the validity of the letter
+   - Check if it has been predicted before
+   - Add the letter to the list of predicted letters
+   - Check if it's in the word
+   - Update the word display or miscounter according to the result
+
+4. Result Check
+   - All letters found → Winning
+   - 6 mistakes were made → Losing
+
+5. Endgame
+   - Show win/lose message
+   - View latest status
+
+
+
+
