@@ -1,0 +1,22 @@
+Project:
+Mini Project Personal Budget Calculator
+
+This project creates a simple budget calculator using data type conversions, string operations and input/output.
+
+Features
+- Receiving income and expenses from the user
+- Calculations with data type conversions
+- Format results with string operations
+- Savings percentage calculation
+
+Project Description
+It will collect monthly income and expenses in different categories from the user and calculate the remaining amount and savings rate
+a program. All values will be shown to the user properly formatted.
+
+
+
+Start -> Get Revenue Information -> Define Expense Categories -> Get Category Based Expenses -> String → 
+
+Float Conversion -> Calculate Total Expense -> Calculate Remaining Money -> Calculate Savings Rate ->
+
+Calculate Percentage by Category -> Format Results -> Create Savings Recommendation -> Show Results  
