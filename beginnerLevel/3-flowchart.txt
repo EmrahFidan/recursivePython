@@ -1,0 +1,29 @@
+# Person Guide Development Project
+
+## 1. Planning
+- Design the data structure (dictionary structure for contact information)
+- Identify basic functions
+- Plan the user interface flow
+
+## 2. Creating Data Structures
+- Dictionary structure: For each person `{"id": 1, "name": "Ali", ...}`
+- List: Master list to hold all contacts
+- Demet: Keep contact information in the form of `(phone, email)
+- Cluster: Unique group tags (`family`, `work`, `friends`)
+
+## 3. Basic Functions
+- Add contact function
+- Delete contact function
+- Update contact information
+- Search by name 
+
+## 4. Advanced Features
+- Filter by group
+- Statistics display (number of people per group)
+- Data saving/loading 
+
+## 5. Testing and Improvement
+- Test all functions
+- Improve user experience
+- Add error handling 
+
